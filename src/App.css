@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(240, 240, 240);
+ /* background-color: rgb(128, 128, 128);*/
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+
+.header, .footer {
+  /*background-color: rgb(3, 55, 77);*/
+  background-color: rgb(2, 72, 89);
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+}
+
+.carousel-item {
+  height: 80vh;
+  overflow: hidden;
+  width: 100%;
+  }
+  
+  .carousel-item img {
+  width: 100%;
+  }
+
+  .carousel-overlay {    
+    background-size: cover;    
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 80vh;
+  }
+
+  .carousel-item1 {
+    background-image: url(./service.jpg);
+  }
+
+  .carousel-item2 {
+    background-image: url(./pista.jpg);
+  }
+
+  .carousel-item3 {
+    background-image: url(./congratulations.jpg);
+  }
+
+  .btn {
+    background-color: rgb(3, 55, 77);
+  }
+
+  .btn:hover {
+    background-color: darkgray;
+  }
