@@ -17,7 +17,7 @@ function Highlight() {
           </p>
         </div>
         <div className="col-md-5">
-            <img src="/family.jpg" className="feature-img" alt="church family"></img>
+            <img src="./family.jpg" className="feature-img" alt="church family"></img>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ function Highlight() {
           </p>
         </div>
         <div className="col-md-5 order-md-1">
-        <img src="/ministry.jpg" className="feature-img" alt="ministry"></img>
+        <img src="./ministry.jpg" className="feature-img" alt="ministry"></img>
         </div>
       </div>
 
@@ -51,7 +51,7 @@ function Highlight() {
           </p>
         </div>
         <div className="col-md-5">
-        <img src="/help.jpg" className="feature-img" alt="helping others"></img>
+        <img src="./help.jpg" className="feature-img" alt="helping others"></img>
         </div>
       </div>
       <hr className="featurette-divider"></hr>
