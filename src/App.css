@@ -52,3 +52,13 @@ body{
   .btn:hover {
     background-color: darkgray;
   }
+
+  .card {
+    background-color: rgb(240, 240, 240);
+    width: 30vw;
+  }
+
+  .feature-img {
+    width: 500px;
+    height: 500px;
+  }

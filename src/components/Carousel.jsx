@@ -2,13 +2,13 @@ import React from "react";
 
 function Carousel() {
   return (
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-      <div class="carousel-indicators">
+    <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-label="Slide 1"
           aria-current="true"
         ></button>
@@ -17,85 +17,83 @@ function Carousel() {
           data-bs-target="#myCarousel"
           data-bs-slide-to="1"
           aria-label="Slide 2"
-          class=""
+          className=""
         ></button>
         <button
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="2"
           aria-label="Slide 3"
-          class=""
+          className=""
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
           <div className="carousel-overlay carousel-item1"></div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>Come and join us!</h1>
+          <div className="container">
+            <div className="carousel-caption text-end">
+              <h1>Let us celebrate!</h1>
               <p className="text-white">
-                Welcome to our church! We would like to worship the Lord with you.
+                Come and be a part of our celebration of God's goodness. 
               </p>
               <p>
-                <a class="btn btn-lg text-white" href="#">
-                  Service Schedule
+                <a className="btn btn-lg text-white" href="#">
+                  Contact us
                 </a>
               </p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <div className="carousel-overlay carousel-item2"></div>
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
+          <div className="container">
+            <div className="carousel-caption text-end">
+              <h1>Hope of Glory Christian Church 28th Anniversary!</h1>
               <p className="text-white">
-                Some representative placeholder content for the third slide of
-                this carousel.
+                Witness God's faithfulness to our church for the past 28 years.
               </p>
               <p>
-                <a class="btn btn-lg text-white" href="#">
+                <a className="btn btn-lg text-white" href="#">
                   Browse gallery
                 </a>
               </p>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <div className="carousel-overlay carousel-item3"></div>
-          {/* <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
+         <div className="container">
+            <div className="carousel-caption text-end">
+              <h1>Congratulations, Pastora!</h1>
               <p className="text-white">
-                Some representative placeholder content for the third slide of
-                this carousel.
+                Congratulations, Rev. Cecilia F. Clarito, on the triumphant completion of your Doctor of Christian Education at Bangkok Apostolic Ministry (BAM) Academy!
               </p>
-              <p>
+              {/* <p>
                 <a class="btn btn-lg btn-primary" href="#">
                   Browse gallery
                 </a>
-              </p>
+              </p> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <button
-        class="carousel-control-prev"
+        className="carousel-control-prev"
         type="button"
         data-bs-target="#myCarousel"
         data-bs-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next"
+        className="carousel-control-next"
         type="button"
         data-bs-target="#myCarousel"
         data-bs-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );
