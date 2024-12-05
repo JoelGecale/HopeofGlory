@@ -34,15 +34,15 @@ body{
   }
 
   .carousel-item1 {
-    background-image: url(./service.jpg);
+    background-image: url(/service.jpg);
   }
 
   .carousel-item2 {
-    background-image: url(./pista.jpg);
+    background-image: url(/pista.jpg);
   }
 
   .carousel-item3 {
-    background-image: url(./congratulations.jpg);
+    background-image: url(/congratulations.jpg);
   }
 
   .btn {
