@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Header />}>
             <Route index element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
             {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </>
   );
