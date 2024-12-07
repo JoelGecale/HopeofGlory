@@ -34,7 +34,7 @@ function Carousel() {
             <div className="carousel-caption text-end">
               <h1>Let us celebrate!</h1>
               <p className="text-white">
-                Come and be a part of our celebration of God's goodness. 
+              Join us for a blessed Sunday at church! Let's come together in worship and fellowship. 
               </p>
               <p>
                 <a className="btn btn-lg text-white" href="#">
@@ -48,9 +48,9 @@ function Carousel() {
           <div className="carousel-overlay carousel-item2"></div>
           <div className="container">
             <div className="carousel-caption text-end">
-              <h1>Hope of Glory Christian Church 28th Anniversary!</h1>
+              <h1>Pista sa Nayon</h1>
               <p className="text-white">
-                Witness God's faithfulness to our church for the past 28 years.
+              Happy 28th Anniversary, Hope of Glory Christian Church and Ministries! 
               </p>
               <p>
                 <a className="btn btn-lg text-white" href="#">

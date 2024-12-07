@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: rgb(240, 240, 240);
  /* background-color: rgb(128, 128, 128);*/
@@ -58,7 +62,7 @@ body{
     width: 30vw;
   }
 
-  .feature-img {
+  .featurette-image {
     width: 500px;
     height: 500px;
   }
