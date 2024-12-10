@@ -2,10 +2,10 @@ import React from "react";
 
 function Highlight() {
   return (
-    <div className="container marketing my-2">
+    <div className="container marketing my-2 view">
       <hr className="featurette-divider"></hr>
 
-      <div className="row featurette py-3">
+      <div className="row featurette py-3 block">
         <div className="col-md-7 my-auto">
           <h2 className="featurette-heading fw-normal lh-1">
             Belong, Grow, Thrive Together
@@ -28,7 +28,7 @@ function Highlight() {
 
       <hr className="featurette-divider"></hr>
 
-      <div className="row featurette py-3">
+      <div className="row featurette py-3 block">
         <div className="col-md-7 order-md-2 my-auto">
           <h2 className="featurette-heading fw-normal lh-1">
             Make a Difference, Be the Hands and Feet of Christ
