@@ -82,7 +82,6 @@ function BibleForm(props) {
       try {
         const response = await axios.get(API_URL);
         const result = response.data;
-        console.log(result);
         setVersions(result);
         setLoaded(true);
       } catch (error) {
@@ -95,13 +94,13 @@ function BibleForm(props) {
 
   return (
     <>
-      <form class="row row-cols-lg-auto g-3 align-items-center py-3">
-        <div class="col-12">
-          <label class="visually-hidden" for="selectVersion">
+      <form className="row row-cols-lg-auto g-3 align-items-center bg-body-secondary py-3">
+        <div className="col-auto">
+          <label className="visually-hidden" for="selectVersion">
             Version
           </label>
 
-          <select class="form-select" id="selectVersion" defaultValue="none">
+          <select className="form-select" id="selectVersion" defaultValue="none">
             <option value="none">Choose version...</option>
             {loaded &&
               versions
@@ -115,12 +114,12 @@ function BibleForm(props) {
           </select>
         </div>
 
-        <div class="col-12">
-          <label class="visually-hidden" for="selectBook">
+        <div className="col-auto">
+          <label className="visually-hidden" for="selectBook">
             Book
           </label>
 
-          <select class="form-select" id="selectBook" defaultValue="none">
+          <select className="form-select" id="selectBook" defaultValue="none">
             <option value="none">Choose book...</option>
             {books.map((book) => (
               <option key={book}>{book}</option>
@@ -128,9 +127,9 @@ function BibleForm(props) {
           </select>
         </div>
 
-        <div className="col-12">
+        <div className="col-auto">
           <input
-            class="form-control"
+            className="form-control"
             type="text"
             placeholder="Chapter"
             aria-label="default input example"
@@ -139,9 +138,9 @@ function BibleForm(props) {
           ></input>
         </div>
 
-        <div className="col-12">
+        <div className="col-auto">
           <input
-            class="form-control"
+            className="form-control"
             type="text"
             placeholder="Verse (optional)"
             aria-label="default input example"
@@ -150,16 +149,16 @@ function BibleForm(props) {
           ></input>
         </div>
 
-        <div class="col-12">
+        <div className="col-auto">
           <button type="submit" onClick={(e) => {
             e.preventDefault();
-            props.onSubmit({version: document.getElementById("selectVersion").value, book: document.getElementById("selectBook").value, chapter: document.getElementById("chapter").value, verse: document.getElementById("verse").value });
+            props.onSubmit({version: document.getElementById("selectVersion").value, versionDesc: document.getElementById("selectVersion").options[document.getElementById("selectVersion").selectedIndex].text, book: document.getElementById("selectBook").value, chapter: document.getElementById("chapter").value, verse: document.getElementById("verse").value });
           }} className="btn text-white">
             Submit
           </button>
         </div>
       </form>
-    </>
+    </>    
   );
 }
 

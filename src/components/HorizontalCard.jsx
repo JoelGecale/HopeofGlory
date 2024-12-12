@@ -8,7 +8,7 @@ function HorizontalCard(props) {
           <img
             src={props.image}
             className="rounded-start img-fluid"
-            alt="..."
+            alt="card image"
           ></img>
         </div>
         <div className="col-md-8">

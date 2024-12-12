@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Carousel() {
   return (
@@ -37,9 +38,9 @@ function Carousel() {
               Join us for a blessed Sunday at church! Let's come together in worship and fellowship. 
               </p>
               <p>
-                <a className="btn btn-lg text-white" href="#">
+                <Link className="btn btn-lg text-white" to="/contact">
                   Contact us
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -53,9 +54,9 @@ function Carousel() {
               Happy 28th Anniversary, Hope of Glory Christian Church and Ministries! 
               </p>
               <p>
-                <a className="btn btn-lg text-white" href="#">
-                  Browse gallery
-                </a>
+                <Link className="btn btn-lg text-white" to="/events/1">
+                  Watch video
+                </Link>
               </p>
             </div>
           </div>

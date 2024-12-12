@@ -8,6 +8,7 @@ import Ministries from "./pages/Ministries";
 import OnlineBible from "./pages/OnlineBible";
 import About from "./pages/About.";
 import Contact from "./pages/Contact";
+import ViewMedia from "./pages/ViewMedia";
 import "./App.css";
 
 function App() {
@@ -18,11 +19,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Header />}>
             <Route index element={<Home />} />
-            <Route path="ministries" element={<Ministries />} /> 
-            <Route path="events" element={<Events />} />
-            <Route path="bible" element={<OnlineBible />} />    
-            <Route path="about" element={<About />} />    
-            <Route path="contact" element={<Contact />} />    
+            <Route path="/ministries" element={<Ministries />} /> 
+            <Route path="/events" element={<Events />} />
+            <Route path="/bible" element={<OnlineBible />} />    
+            <Route path="/about" element={<About />} />    
+            <Route path="/contact" element={<Contact />} /> 
+            <Route path="/events/:id" element={<ViewMedia type="events" />} />
+            <Route path="/featured/:id" element={<ViewMedia type="featured" />} />
             {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>
