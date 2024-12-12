@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="container page">
-      <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div className="container page border-bottom mb-3">
+      <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary mt-2 py-3">
         <div className="col-md-7 my-auto">
           <h1 className="display-6 fst-italic">We are All Part of One Family</h1>
           <p className="lead my-3">
@@ -17,7 +17,7 @@ function Contact() {
         <div className="col-md-5">
           <img
             src="./contact.jpg"
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image mx-auto object-fit-contain"
+            className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
             alt="church family"
           ></img>
         </div>
@@ -25,7 +25,7 @@ function Contact() {
 
       <h2 className="py-3 mb-4 fst-italic border-bottom">Contact Details</h2>
 
-      <div className="row mb-3 py-3 border-bottom">
+      <div className="row mb-3 py-3">
         <div className="col-md-6">
           <ul style={{"listStyleType":"none"}}>
           <li className="py-2">

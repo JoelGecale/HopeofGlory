@@ -3,7 +3,7 @@ import React from "react";
 function Ministries() {
   return (
     <div className="container page border-bottom mb-3">
-      <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary mt-2 py-3">
         <div className="col-md-7 my-auto">
           <h1 className="display-6 fst-italic">Be a Part of the Body of Christ</h1>
           <p className="lead my-3">
@@ -19,7 +19,7 @@ function Ministries() {
         <div className="col-md-5">
           <img
             src="./ministries.jpg"
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image mx-auto object-fit-contain"
+            className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
             alt="church family"
           ></img>
         </div>

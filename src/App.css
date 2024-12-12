@@ -63,10 +63,10 @@ body {
   width: 30vw;
 }
 
-.featurette-image {
+/* .featurette-image {
   width: 500px;
   height: 500px;
-}
+} */
 
 @keyframes slide {
   from {

@@ -47,6 +47,7 @@ function ViewMedia(props) {
 
       <div className="row px-4 px-md-5 mb-4 mx-4 rounded text-body-emphasis py-3 bg-body-secondary">
       <h3 className="fst-italic">Other videos</h3>
+      <p>Put list here</p>
       </div>
     </div>
   );

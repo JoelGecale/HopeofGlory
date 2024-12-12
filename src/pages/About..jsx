@@ -5,7 +5,7 @@ function About() {
     <>
       {/* <div className="container-fluid p-0 m-0"><img className="w-100" height="400vh" src="banner.jpg"></img></div> */}
       <div className="container pt-3 page border-bottom mb-3">
-        <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div className="row px-4 px-md-5 mb-4 rounded text-body-emphasis bg-body-secondary mt-2 py-3">
           <div className="col-md-7 my-auto">
             <h1 className="display-6 fst-italic">
             Christ in You, the Hope of Glory
@@ -20,7 +20,7 @@ function About() {
           <div className="col-md-5">
             <img
               src="./service.jpg"
-              className="bd-placeholder-img bd-placeholder-img-lg featurette-image mx-auto object-fit-contain"
+              className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
               alt="church family"
             ></img>
           </div>
