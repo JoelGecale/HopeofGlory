@@ -39,15 +39,15 @@ body {
 }
 
 .carousel-item1 {
-  background-image: url(./assets/images/banner.jpg);
+  background-image: url(/assets/images/banner.jpg);
 }
 
 .carousel-item2 {
-  background-image: url(./assets/images/pista.jpg);
+  background-image: url(/assets/images/pista.jpg);
 }
 
 .carousel-item3 {
-  background-image: url(./assets/images/congratulations.jpg);
+  background-image: url(/assets/images/congratulations.jpg);
 }
 
 .btn {
