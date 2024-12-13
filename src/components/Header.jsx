@@ -11,7 +11,7 @@ function Header() {
               to="/"
               className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
             >
-              <img src="./logo.jpg" alt="HGCC logo" className="logo"></img>
+              <img src="./assets/images/logo.jpg" alt="HGCC logo" className="logo"></img>
               <span className="ps-2 fw-bold">
                 Hope of Glory Christian Church
               </span>

@@ -1,3 +1,25 @@
+export const schedule = [{
+    id: "sched-1",
+    image: "sunday.jpg",
+    title: "Sunday Service",
+    content: "Let us come together for a time of worship, connection and inspiration. Discover a place where you belong and let’s grow together in faith and God’s love.",
+    time:"Every Sunday at 9:00 AM"
+},
+{
+    id: "sched-2",
+    image: "prayer.jpg",
+    title: "Prayer Meeting",
+    content: "Join us for a powerful time of prayer as we seek God’s guidance and peace. Whether you’re carrying a heavy burden or celebrating a victory, let’s come together to lift our hearts in prayer.",
+    time:"Every Wednesday at 6:30 PM"
+},
+{
+    id: "sched-3",
+    image: "kids.png",
+    title: "Kids Church",
+    content: "Bring your kids to an exciting, fun-filled adventure at Kids Church! They’ll enjoy engaging activities, uplifting music, and age-appropriate lessons about God’s love.",
+    time:"Every Sunday at 10:00 AM"
+}]
+
 export const featured = [{
     id: 0,
     title: "The Son Got Up",
@@ -41,6 +63,14 @@ export const events = [{
 },
 {
     id: 2,
+    title: "One Way | Daily Vacation Bible School 2024",
+    content: "Join us for DVBS 2024 with the exciting theme: One Way | John 14:6",
+    date: "July 9-12, 2024",
+    mediaID: "one_way",
+    type: "photo"
+},
+{
+    id: 3,
     title: "Set Apart & Chosen",
     content: "27th Aniversay of Hope of Glory Christian Church.  A day to rediscover your calling.",
     date: "November 26, 2023",
@@ -48,13 +78,13 @@ export const events = [{
     type: "video"
 },
 {
-    id: 3,
+    id: 4,
     title: "Christians Engaged | Day 02",
     content: "Christians Engaged Day 2 live streaming.",
     date: "April 12, 2022",
     mediaID: "450797956803300",
     type: "video"
-}
+},
 ]
 
 export const books = [

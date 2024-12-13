@@ -28,7 +28,7 @@ function BibleForm(props) {
     <>
       <form className="row row-cols-lg-auto g-3 align-items-center bg-body-secondary py-3">
         <div className="col-auto">
-          <label className="visually-hidden" for="selectVersion">
+          <label className="visually-hidden" htmlFor="selectVersion">
             Version
           </label>
 
@@ -47,7 +47,7 @@ function BibleForm(props) {
         </div>
 
         <div className="col-auto">
-          <label className="visually-hidden" for="selectBook">
+          <label className="visually-hidden" htmlFor="selectBook">
             Book
           </label>
 

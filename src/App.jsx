@@ -14,7 +14,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Header /> */}
       <HashRouter>
         <Routes>
           <Route path="/" element={<Header />}>

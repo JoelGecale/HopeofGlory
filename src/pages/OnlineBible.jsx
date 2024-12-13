@@ -79,7 +79,7 @@ function OnlineBible() {
         </div>
         <div className="col-md-5">
           <img
-            src="./bible.jpg"
+            src="./assets/images/bible.jpg"
             className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
             alt="church family"
           ></img>

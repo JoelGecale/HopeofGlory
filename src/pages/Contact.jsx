@@ -16,7 +16,7 @@ function Contact() {
         </div>
         <div className="col-md-5">
           <img
-            src="./contact.jpg"
+            src="./assets/images/contact.jpg"
             className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
             alt="church family"
           ></img>
@@ -114,9 +114,9 @@ function Contact() {
             width="600"
             height="450"
             style={{ border: "0" }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

@@ -39,15 +39,15 @@ body {
 }
 
 .carousel-item1 {
-  background-image: url(/banner.jpg);
+  background-image: url(./assets/images/banner.jpg);
 }
 
 .carousel-item2 {
-  background-image: url(/pista.jpg);
+  background-image: url(./assets/images/pista.jpg);
 }
 
 .carousel-item3 {
-  background-image: url(/congratulations.jpg);
+  background-image: url(./assets/images/congratulations.jpg);
 }
 
 .btn {
@@ -62,11 +62,6 @@ body {
   background-color: rgb(240, 240, 240);
   width: 30vw;
 }
-
-/* .featurette-image {
-  width: 500px;
-  height: 500px;
-} */
 
 @keyframes slide {
   from {
@@ -90,7 +85,7 @@ body {
   }
 }
 
-.page {
+.page, .carousel {
   animation: slide linear;
   animation-duration: 0.3s;
 }

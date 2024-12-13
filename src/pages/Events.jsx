@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FeaturedVideo from "../components/FeaturedVideo";
-import EventCard from "../components/EventCard";
+import SmallCard from "../components/SmallCard";
+import BigCard from "../components/BigCard";
 import { featured, events } from "../data";
 
 function Events() {
@@ -18,7 +18,7 @@ function Events() {
         </div>
         <div className="col-md-5">
           <img
-            src="./calendar.jpg"
+            src="./assets/images/calendar.jpg"
             className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
             alt="church family"
           ></img>
@@ -30,7 +30,8 @@ function Events() {
         <div className="col-md-8">
           <div className="row mb-3 py-3">
             {events.map((event) => (
-              <EventCard
+              <BigCard
+                key={"event-" + event.id}
                 id={event.id}
                 title={event.title}
                 content={event.content}
@@ -48,11 +49,14 @@ function Events() {
               <ul className="list-unstyled">
                 {featured.map((video) => (
                   <li>
-                    <FeaturedVideo
+                    <SmallCard
+                      key={"featured-" + video.id}
                       id={video.id}
                       thumbnail={video.mediaID}
                       title={video.title}
                       date={video.date}
+                      type="featured"
+                      reloadOnClick={false}
                     />
                   </li>
                 ))}
